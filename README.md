@@ -38,17 +38,17 @@
 5.cnn模型建構  
  輸入為320X240  
  第一層卷積  
-  filters=32  
-  kernel=3  
-  activation=relu  
+ filters=32  
+ kernel=3  
+ activation=relu  
  第二層卷積  
-  filters=32  
-  kernel=3  
-  activation=relu  
+ filters=32  
+ kernel=3  
+ activation=relu  
  第三層卷積  
-  filters=32  
-  kernel=3  
-  activation=relu  
+ filters=32  
+ kernel=3  
+ activation=relu  
  全連接層  
  神經元數=128  
  activation=relu  
