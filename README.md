@@ -38,22 +38,22 @@
 3.資料前處理  
 4.資料正規化(0到1之間)  
 5.cnn模型建構  
-   輸入為320X240  
-   第一層卷積  
-   filters=32  
-   kernel=3  
-   activation=relu  
-   第二層卷積  
-   filters=32  
-   kernel=3  
-   activation=relu  
-   第三層卷積  
-   filters=32  
-   kernel=3  
-   activation=relu  
-   全連接層  
-   神經元數=128  
-   activation=relu  
+     輸入為320X240  
+     第一層卷積  
+     filters=32  
+     kernel=3  
+     activation=relu  
+     第二層卷積  
+     filters=32  
+     kernel=3  
+     activation=relu  
+     第三層卷積  
+     filters=32  
+     kernel=3  
+     activation=relu  
+     全連接層  
+     神經元數=128  
+     activation=relu  
 6.模型編譯  
 7.模型訓練  
 8.儲存模型  
