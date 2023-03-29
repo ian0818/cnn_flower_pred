@@ -31,35 +31,36 @@
 
 ## 程式流程
 
-  * cnn.py  
+  * cnn.py 程式流程
+  
 1.引入函式庫  
 2.定義參數  
 3.資料前處理  
 4.資料正規化(0到1之間)  
 5.cnn模型建構  
- 輸入為320X240  
- 第一層卷積  
- filters=32  
- kernel=3  
- activation=relu  
- 第二層卷積  
- filters=32  
- kernel=3  
- activation=relu  
- 第三層卷積  
- filters=32  
- kernel=3  
- activation=relu  
- 全連接層  
- 神經元數=128  
- activation=relu  
+   輸入為320X240  
+   第一層卷積  
+   filters=32  
+   kernel=3  
+   activation=relu  
+   第二層卷積  
+   filters=32  
+   kernel=3  
+   activation=relu  
+   第三層卷積  
+   filters=32  
+   kernel=3  
+   activation=relu  
+   全連接層  
+   神經元數=128  
+   activation=relu  
 6.模型編譯  
 7.模型訓練  
 8.儲存模型  
 9.隨機取樣(10筆資料)  
 10.預測花的種類  
-  * resize.py  
-resize.py程式流程  
+  * resize.py  程式流程
+
 1.引入函式庫  
 2.定義參數  
 3.主程式執行  
